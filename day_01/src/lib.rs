@@ -9,7 +9,6 @@ pub fn part1(lines:Vec<String>)->i32 {
   for line in lines {
     if !line.is_empty() {
       let caps = re.captures(line.as_str()).unwrap();
-
       left.push(caps[1].parse::<i32>().unwrap());
       right.push(caps[2].parse::<i32>().unwrap());
     } 
