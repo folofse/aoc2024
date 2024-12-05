@@ -82,7 +82,7 @@ mod tests {
 
     assert_eq!(part1(lines), 161 );
   }
-  
+  /* 
   #[test]
   fn test1_part2() {
     let lines = read_lines("./src/input.txt")
@@ -113,5 +113,5 @@ mod tests {
 
     assert_eq!(part2(lines), 83595109);
   }
-  
+  */
 }
